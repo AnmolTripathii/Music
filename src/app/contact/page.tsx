@@ -3,7 +3,7 @@ import React, { useState, FormEvent } from "react"
 import { BackgroundBeams } from "@/components/ui/background-beams"
 
 
-function page() {
+function Page() {
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -50,4 +50,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
